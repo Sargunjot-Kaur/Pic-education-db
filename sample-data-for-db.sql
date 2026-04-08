@@ -78,3 +78,27 @@ INSERT INTO answer (question_id, attempt_id, student_answer, marks_awarded) VALU
     (9, 4, 'Summary answer...', 4),
     (10, 4, 'I enjoy reading...', 8);  
     
+INSERT INTO answer (question_id, attempt_id, student_answer, marks_awarded) VALUES
+
+-- Attempt 5
+(1, 5, 'Paris', 5),
+(2, 5, 'Berlin', 5),
+(3, 5, 'Technology is advancing...', 8),
+(10, 5, 'My hobby is football...', 9),
+
+-- Attempt 6
+(7, 6, 'Oxygen', 5),
+(8, 6, 'I enjoy painting...', 8),
+(4, 6, 'Environment protection...', 7),
+
+-- Attempt 7
+(2, 7, 'Berlin', 5),
+(5, 7, 'Listening answer...', 4),
+(6, 7, 'Education is essential...', 8),
+
+-- Attempt 8
+(1, 8, 'Paris', 5),
+(9, 8, 'Audio summary...', 4),
+(10, 8, 'I enjoy music...', 9);    
+    
+
