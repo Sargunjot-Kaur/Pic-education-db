@@ -14,7 +14,12 @@ INSERT INTO attempt (student_id, test_id, attempt_date) VALUES
     (1, 1, NOW()),
     (2, 1, NOW()),
     (3, 2, NOW()),
-    (4, 2, NOW());
+    (4, 2, NOW()),
+    (4, 2, NOW()),
+    (1, 2, NOW()),
+    (2, 1, NOW()),
+    (2, 2, NOW());
+
     
 INSERT INTO section (test_id, section_name) VALUES
 -- Test 1
@@ -71,4 +76,5 @@ INSERT INTO answer (question_id, attempt_id, student_answer, marks_awarded) VALU
 
 -- Diana (Attempt 4)
     (9, 4, 'Summary answer...', 4),
-    (10, 4, 'I enjoy reading...', 8);    
+    (10, 4, 'I enjoy reading...', 8);  
+    
